@@ -445,7 +445,6 @@ ul {
   margin-right: auto;
   padding-right: 1rem;
   padding-left: 1rem;
-  text-align: center;
 }
 .header_ttl {
   font-size: 2rem;
@@ -548,6 +547,31 @@ ul {
   text-align: center;
 }
 
+.tabNav {
+  margin-top: 1rem;
+}
+.tabNav_inner {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: -1.8rem;
+}
+.tabNav_link {
+  display: inline-block;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  text-decoration: none;
+  opacity: 0.6;
+  transition: 0.5s;
+}
+.tabNav_link:focus, .tabNav_link:hover {
+  opacity: 1;
+}
+.tabNav_link.active {
+  opacity: 1;
+}
+
 .twoColList li {
   list-style-type: none;
   display: flex;
@@ -575,31 +599,6 @@ ul {
 }
 .twoColList_2nd {
   flex: 1 1 auto;
-}
-
-.tabNav {
-  margin-top: 1rem;
-}
-.tabNav_inner {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: -1.8rem;
-}
-.tabNav_link {
-  display: inline-block;
-  padding-right: 1rem;
-  padding-left: 1rem;
-  text-decoration: none;
-  opacity: 0.6;
-  transition: 0.5s;
-}
-.tabNav_link:focus, .tabNav_link:hover {
-  opacity: 1;
-}
-.tabNav_link.active {
-  opacity: 1;
 }
 
 :root {
